@@ -1,0 +1,78 @@
+{
+  "pasien": [
+    {
+      "id_pasien": 1,
+      "no_rm_pasien": "ZAHOS001",
+      "tgl_lahir_pasien": "10-05-2002",
+      "nama_pasien": "MUHAMMAD FAHREZA ISNANTO",
+      "alamat_pasien": "JALAN PANDAN WANGI II A-80 SEMARANG",
+      "jenis_kelamin_pasien": "LAKI-LAKI"
+    },
+    {
+      "id_pasien": 2,
+      "no_rm_pasien": "ZAHOS002",
+      "tgl_lahir_pasien": "10-05-2003",
+      "nama_pasien": "RAMA ARYA SUTA WEIHAN",
+      "alamat_pasien": "JAMBI",
+      "jenis_kelamin_pasien": "LAKI-LAKI"
+    }
+  ],
+  "poli": [
+    {
+      "id": 1,
+      "nama": "POLI TUMBUH KEMBANG ANAK"
+    },
+    {
+      "id": 2,
+      "nama": "POLI MATA"
+    },
+    {
+      "id": 3,
+      "nama": "POLI THT"
+    }
+  ],
+  "jadwalDokter": [
+    {
+      "id": 1,
+      "id_poli": 1,
+      "nama_poli": "POLI TUMBUH KEMBANG ANAK",
+      "nama": "DR Tumbuh Anak S.PD",
+      "id_hari": 1,
+      "hari":"Senin - Kamis",
+      "waktu": "09:00-14:00 WIB"
+    },
+    {
+      "id": 2,
+      "id_poli": 2,
+      "nama_poli": "POLI MATA",
+      "nama": "DR Mata S.PD",
+      "id_hari": 5,
+      "hari":"Senin - Kamis",
+      "waktu": "09:00-14:00 WIB"
+    }
+  ],
+  "pendaftaran": [
+    {
+      "id": "abcoxyz",
+      "no_rm_pasien": "",
+      "tgl_periksa": "",
+      "poli": "",
+      "dokter": ""
+    },
+    {
+      "id": "z0IRaSbRWsEz578KHV5Rl",
+      "no_rm_pasien": "ZAHOS001",
+      "poli": "POLI MATA",
+      "tglPeriksa": "25-11-2022",
+      "dokter": "DR Mata S.PD"
+    },
+    {
+      "id": "1EgWSpU8Ld2nyfMEz3R1G",
+      "no_rm_pasien": "ZAHOS001",
+      "nama_pasien": "MUHAMMAD FAHREZA ISNANTO",
+      "poli": "POLI MATA",
+      "tglPeriksa": "25-11-2022",
+      "dokter": "DR Mata S.PD"
+    }
+  ]
+}
